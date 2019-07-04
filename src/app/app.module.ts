@@ -17,6 +17,7 @@ import { Component3Component as Scenario5Component3Component } from './scenario5
 import { Component1Component as Scenario6Component1Component } from './scenario6/component1/component1.component';
 import { Component2Component as Scenario6Component2Component } from './scenario6/component2/component2.component';
 import { Component3Component as Scenario6Component3Component } from './scenario6/component3/component3.component';
+// Change imports for Scenario6 and import module instead of components.
 @NgModule({
   declarations: [
     AppComponent,
