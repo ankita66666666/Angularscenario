@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Scenario7Module } from './scenario7/scenario7.module';
+
 
 import { Component1Component as Scenario1Component1Component } from './scenario1/component1/component1.component';
 import { Component1Component as Scenario2Component1Component } from './scenario2/component1/component1.component';
@@ -37,7 +39,8 @@ import { Component3Component as Scenario6Component3Component } from './scenario6
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    Scenario7Module
   ],
   providers: [],
   bootstrap: [AppComponent]
