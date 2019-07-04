@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Scenario1Module } from './scenario1/scenario1.module';
+
 import { Scenario7Module } from './scenario7/scenario7.module';
 
 
-import { Component1Component as Scenario1Component1Component } from './scenario1/component1/component1.component';
 import { Component1Component as Scenario2Component1Component } from './scenario2/component1/component1.component';
 import { Component1Component as Scenario3Component1Component } from './scenario3/component1/component1.component';
 import { Component2Component as Scenario3Component2Component } from './scenario3/component2/component2.component';
@@ -23,7 +24,6 @@ import { Component3Component as Scenario6Component3Component } from './scenario6
 @NgModule({
   declarations: [
     AppComponent,
-    Scenario1Component1Component,
     Scenario2Component1Component,
     Scenario3Component1Component,
     Scenario3Component2Component,
@@ -40,6 +40,7 @@ import { Component3Component as Scenario6Component3Component } from './scenario6
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    Scenario1Module,
     Scenario7Module
   ],
   providers: [],
