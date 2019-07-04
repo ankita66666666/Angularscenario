@@ -1,0 +1,9 @@
+<h3>
+    Scenario 3
+</h3>
+
+<div>
+    <input [(ngModel)]="messageToChild" type="text" name="text-to-child" placeholder="Send text to child component">
+    <app-scenario3-component2 [messageToChild]='messageToChild' ></app-scenario3-component2>
+   
+</div>
