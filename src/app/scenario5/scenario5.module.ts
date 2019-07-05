@@ -20,4 +20,4 @@ import { Component3Component } from './component3/component3.component';
     Component1Component
   ]
 })
-export class Scenario6Module { }
+export class Scenario5Module { }
